@@ -19,11 +19,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main); //Sets Sceneview
 
-        changeButton = (Button) findViewById(R.id.changeButton);//Change button
-        editText = (EditText) findViewById(R.id.editText); //EditText, Takes user input
-        textView = (TextView) findViewById(R.id.textView); //Textview
+        changeButton = (Button)findViewById(R.id.changeButton);//Change button
+        editText = (EditText)findViewById(R.id.editText); //EditText, Takes user input
+        textView = (TextView)findViewById(R.id.textView); //Textview
 
         //changeButton on click listener
         changeButton.setOnClickListener(new View.OnClickListener() {
